@@ -10,6 +10,9 @@ public class Main {
 		String komanda=" ";
 		do {
 		 komanda=src.nextLine();
+		 		if(komanda.isEmpty()) {
+		 			continue;
+		 		}
 			}while(!komanda.equals("End"));
 
 	}
