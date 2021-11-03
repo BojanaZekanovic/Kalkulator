@@ -17,6 +17,7 @@ public class Main {
 		 		if(kom.length!=3) {
 		 			continue;
 		 		}
+		 		
 			}while(!komanda.equals("End"));
 
 	}
