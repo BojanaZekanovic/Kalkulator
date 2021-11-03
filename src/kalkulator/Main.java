@@ -22,8 +22,7 @@ public class Main {
 		 		int z=0;
 		 		switch (kom[1]) {
 				case "+": 
-					
-					z=x+y;
+					z=addition(x,y);
 					break;
 				
 				default:
@@ -37,5 +36,7 @@ public class Main {
 			}while(!komanda.equals("End"));
 
 	}
-
+		public static int addition(int a, int b) {
+			return a+b;
+		}
 }
